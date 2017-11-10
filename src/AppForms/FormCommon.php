@@ -6,7 +6,7 @@ namespace Amorphous\Phpservices\AppForms;
  * Class FormCommon
  * @package Amorphous\Phpservices\AppForms
  */
-class FormCommon extends FormBase {
+abstract class FormCommon extends FormBase {
 	/**
 	 * @param $models
 	 * @param array $params
