@@ -81,10 +81,13 @@ class BaseInput {
 	 * @return $this
 	 */
 	public function setValidators( $param ) {
+		$validatorNs = '\Amorphous\Phpservices\Validators\\';
+
 		if ( is_array( $param ) ) {
 			foreach ( $param as $key => $value ) {
 				if ( is_string( $key ) ) {
 					//require_once CLASSES . 'Validators/' . ucfirst( $key ) . '.php';
+					$key = $validatorNs . ucfirst( $key );
 					$validator = new $key;
 					if ( is_array( $value ) ) {
 						$validator->setValues( $value );
@@ -92,11 +95,14 @@ class BaseInput {
 					$this->validators[] = $validator;
 				} elseif ( is_numeric( $key ) ) {
 					//require_once CLASSES . 'Validators/' . ucfirst( $value ) . '.php';
+					$value = $validatorNs . ucfirst( $value );
 					$this->validators[] = new $value;
 				}
 			}
 		} else {
 			//require_once CLASSES . 'Validators/' . ucfirst( $param ) . '.php';
+			$param = $validatorNs . ucfirst( $param );
+
 			$this->validators[] = new $param;
 		}
 

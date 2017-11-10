@@ -6,6 +6,7 @@ use Amorphous\Phpservices\BaseFactoryService;
 use Amorphous\Phpservices\Views\View;
 use Amorphous\Phpservices\Models\UserModel;
 use Amorphous\Phpservices\AppForms\LoginForm;
+use Amorphous\Phpservices\AppForms\RegisterForm;
 
 class AppController {
 
@@ -38,7 +39,7 @@ class AppController {
 			$this->view->render( 'login' );
 
 		} elseif ( $_GET && $_GET['action'] === 'register' ) {
-			$this->form = BaseFactoryService::getForm( 'RegisterForm', $this->models );
+			$this->form = BaseFactoryService::getForm( RegisterForm::class, $this->models );
 
 			//Set the token field into the session
 			$this->saveSessionToken();
@@ -52,10 +53,10 @@ class AppController {
 			$token   = $session->get( 'token' );
 
 			if ( $_POST['submit'] === 'login' ) {
-				$this->form = BaseFactoryService::getForm( 'LoginForm', $this->models );
+				$this->form = BaseFactoryService::getForm( LoginForm::class, $this->models );
 			}
 			if ( $_POST['submit'] === 'register' ) {
-				$this->form = BaseFactoryService::getForm( 'RegisterForm', $this->models );
+				$this->form = BaseFactoryService::getForm( RegisterForm::class, $this->models );
 			}
 
 			//Pull the token from the session and set it in the form for validation

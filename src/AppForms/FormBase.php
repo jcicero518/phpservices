@@ -131,6 +131,7 @@ class FormBase {
 	 * @return bool|Checkbox|Hidden|Select|string|Submit|Text
 	 */
 	public function addField( $field ) {
+		//var_dump($field);
 		if ( $newField = $this->generateField( $field ) ) {
 			$this->fields[ $field['priority'] ] = $newField;
 

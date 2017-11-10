@@ -8,7 +8,7 @@ namespace Amorphous\Phpservices\AppForms;
  */
 class FormCommon extends FormBase {
 	/**
-	 * @param $model
+	 * @param $models
 	 * @param array $params
 	 */
 	public function __construct( $models, $params ) {
