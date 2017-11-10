@@ -2,8 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc8bae6-6648-401e-a068-70724fcac807" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppForms/FormBase.php" afterPath="$PROJECT_DIR$/src/AppForms/FormBase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppForms/FormCommon.php" afterPath="$PROJECT_DIR$/src/AppForms/FormCommon.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip3/Concept/Classes/Car.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip3/Concept/Classes/Plane.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip3/Concept/Classes/Train.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip3/Concept/Classes/VehicleBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip3/Concept/Classes/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip5/Concept/Classes/Car.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip5/Concept/Classes/Plane.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip5/Concept/Classes/Train.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip5/Concept/Classes/VehicleBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip5/Concept/Classes/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Controllers/AppController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Forms/FormAll.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Forms/FormBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Forms/Inputs/Checkbox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Forms/Inputs/Hidden.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Forms/Inputs/Option.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Forms/Inputs/Select.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Forms/Inputs/Submit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Forms/Inputs/Text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Forms/LoginForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Forms/RegisterForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Models/UserModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/ObjectFactoryService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Validators/Alnum.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Validators/Alpha.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Validators/Boolean.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Validators/Email.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Validators/InArray.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Validators/Match.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Validators/Required.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Validators/StringLength.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Classes/Views/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Config/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Layouts/register.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/Layouts/thanks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/SQL/site.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/Application/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip8/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Controllers/AppController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Forms/FormBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Forms/FormCommon.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Forms/Inputs/Checkbox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Forms/Inputs/Hidden.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Forms/Inputs/Option.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Forms/Inputs/Password.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Forms/Inputs/Select.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Forms/Inputs/Submit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Forms/Inputs/Text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Forms/LoginForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Forms/RegisterForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Models/CountryModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Models/UserModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/ObjectFactoryService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Validators/Alnum.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Validators/Alpha.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Validators/Boolean.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Validators/Email.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Validators/InArray.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Validators/Required.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Validators/StringLength.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Validators/Token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Classes/Views/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Config/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Layouts/invalid.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Layouts/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Layouts/register.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Layouts/thanks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/Layouts/welcome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/SQL/site.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/Application/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CLIPS_WITH_NOTES/Clip9/README.md" />
     </list>
     <ignored path="phpservices.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -252,8 +323,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="240" />
-    <option name="y" value="281" />
+    <option name="x" value="187" />
+    <option name="y" value="142" />
     <option name="width" value="1907" />
     <option name="height" value="1033" />
   </component>
@@ -426,38 +497,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpservices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpservices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpservices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpservices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -477,11 +516,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/AppForms" />
       <recent name="$PROJECT_DIR$/src/Forms" />
       <recent name="$PROJECT_DIR$/src/Database" />
-      <recent name="$PROJECT_DIR$/src/Models" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.index.php">
@@ -575,8 +614,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="281" width="1907" height="1033" extended-state="0" />
-    <editor active="true" />
+    <frame x="187" y="142" width="1907" height="1033" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -585,7 +624,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25683647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25683647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />

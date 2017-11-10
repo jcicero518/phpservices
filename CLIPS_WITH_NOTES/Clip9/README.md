@@ -1,0 +1,1 @@
+Notes in LoginForm, FormCommon, FormBase, RegisterForm
