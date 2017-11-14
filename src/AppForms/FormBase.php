@@ -15,7 +15,7 @@ use Amorphous\Phpservices\AppForms\Inputs\ {
  * Class FormBase
  * @package Amorphous\Phpservices\AppForms
  */
-abstract class FormBase {
+class FormBase {
 
 	public $models = [ ];
 	public $config = [ ];

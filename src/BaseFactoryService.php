@@ -73,13 +73,13 @@ abstract class BaseFactoryService {
 		return self::$session;
 	}
 
-	public static function getModels( $model, $config ) {
+	public static function getModel( $model, $config ) {
 
 		if ( ! isset( self::$models[ $model ] ) ) {
 			self::$models[ $model ] = new $model( self::getDbService( $config ) );
 		}
 
-		return self::$models;
+		return self::$models[ $model ];
 	}
 
 	/**

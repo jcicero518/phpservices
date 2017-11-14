@@ -5,6 +5,7 @@ namespace Amorphous\Phpservices\Controllers;
 use Amorphous\Phpservices\BaseFactoryService;
 use Amorphous\Phpservices\Views\View;
 use Amorphous\Phpservices\Models\UserModel;
+use Amorphous\Phpservices\Models\CountryModel;
 use Amorphous\Phpservices\AppForms\LoginForm;
 use Amorphous\Phpservices\AppForms\RegisterForm;
 
@@ -24,7 +25,8 @@ class AppController {
 		$config = BaseFactoryService::getConfig();
 
 		$this->models = [
-			'user' => BaseFactoryService::getModels( UserModel::class, $config )
+			'user' => BaseFactoryService::getModel( UserModel::class, $config ),
+			'country' => BaseFactoryService::getModel( CountryModel::class, $config )
 		];
 
 		$this->view = new View();
@@ -39,6 +41,7 @@ class AppController {
 			$this->view->render( 'login' );
 
 		} elseif ( $_GET && $_GET['action'] === 'register' ) {
+
 			$this->form = BaseFactoryService::getForm( RegisterForm::class, $this->models );
 
 			//Set the token field into the session
